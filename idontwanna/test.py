@@ -121,7 +121,7 @@ checkpoint_path = "./1804192_2D_simple_cable"
 
 init = tf.constant_initializer(0.0)
 
-n_epochs = 2
+n_epochs = 25
 restore_checkpoint = True
 
 n_iterations_per_epoch = y_train.shape[0] // batch_size
